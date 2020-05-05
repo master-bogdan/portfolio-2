@@ -1,0 +1,531 @@
+body {
+    padding: 5% 0;
+}
+
+h1, h2, h3, p, span, li {
+    font-family: "FiraSans"; 
+}
+
+h3 {
+    font-size: 24px;
+    font-family: "FiraSans";
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 3%; 
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+header {
+    background: url(../img/header_background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.logo-nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* Navigation menu start*/
+
+nav {
+    padding-left: 5%;
+    padding-bottom: 15%;
+}
+
+nav li {
+    list-style: none;
+    padding: 2% 1%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover{
+    color: #ec4848;
+}
+
+.menu{
+    display: none;
+}
+
+.menuToggle{
+    padding: 10px 15px;
+    color: #fff;
+    display: none;
+}
+
+nav input{
+    display: none;
+}
+
+nav label {
+    color: black;
+    font-size: 3em;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+#menuToggle:checked + .menu{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Navigation menu end*/
+
+.heading {
+    width: 40%;
+    padding: 15% 0 10% 10%;
+}
+
+.heading h1 {
+    font-size: 72px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left; 
+}
+
+.heading p {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    text-align: left;   
+}
+
+.heading span {
+    font-weight: bold;
+}
+
+/*Next section*/
+
+.ski-man {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.ski-man-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.ski-man-img {
+    width: 50%;
+}
+
+.ski-man-img img {
+    width: 100%;
+    height: auto;
+}
+
+.ski-man-text-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: #f3f1ef;
+}
+
+.ski-man-text {
+    width: 70%;
+    font-size: 30px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    padding-left: 5%;  
+}
+
+.photo-container {
+    display: flex;
+    width: 100%;
+}
+
+.photo-container div {
+    width: 25%;
+    text-align: center;
+}
+
+
+.photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Instagram section */
+
+.instagram {
+    display: flex;
+    background: #3f729b;
+    width: 100%;
+}
+
+.container-text-instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 10% 0;
+}
+
+.text-instagram {
+    width: 65%;
+    padding-left: 10%;
+}
+
+.text-instagram h3 {
+    color: rgb(249, 249, 249);
+    line-height: 1.2;     
+}
+
+.text-instagram p {
+    font-size: 28px;
+    color: rgb(249, 249, 249);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 200; 
+}
+
+.container-img-instagram {
+    width: 25%;
+}
+
+.container-img-instagram img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text-instagram button {
+    margin-top: 3%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: transparent;
+    padding: 2% 4%;
+    color: rgb(249, 249, 249);
+    font-size: 14px;
+}
+
+/*Play section*/
+
+.play {
+    display: flex;
+    justify-content: flex-end;
+    background: #282b2f;
+    width: 100%;
+}
+
+.container-play {
+    background: url(../img/dj_photo.jpg) no-repeat;
+    background-size: cover;
+    width: 75%;
+    padding-bottom: 20%;
+}
+
+.play-text {
+    padding: 8% 3%;
+    width: 27%;
+    background:#212227;
+    line-height: 4;
+}
+
+.play-text h3 {
+    font-size: 20px;
+    color: #2ebd59;
+    line-height: 1.2;
+    text-align: left;     
+}
+
+.play-text span {
+    font-size: 16px;
+    color: rgb(46, 189, 89);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: left;  
+}
+
+.play-text ul {
+    padding: 5% 0;
+}
+
+.play-text li {
+    font-size: 14px;
+    color: white;
+    list-style: none;
+    line-height: 1.4;
+}
+
+.play-text button {
+    border: 1px solid;
+    border-radius: 20px;
+    background: transparent;
+    color: #2ebd59;
+    text-transform: uppercase;
+    padding: 3% 8%;
+}
+
+/* Soc section */
+
+.social {
+    display: flex;
+    width: 100%;
+}
+
+.social h3, .social p {
+    color: white;
+}
+.social h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.social p {
+    font-size: 18px;
+    font-weight: 200;
+    padding-bottom: 5%;
+}
+
+.social button {
+    border: 1px solid;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    padding: 3% 8%;
+}
+
+.social-text-container-left, .social-text-container-right {
+    width: 50%;
+    padding: 5% 0;
+}
+
+.social-text-container-left {
+    display: flex;
+    justify-content: flex-end;
+    background: #2ebd59;
+}
+
+.social-text-container-right {
+    display: flex;
+    background: #282b2f;
+}
+
+.social-text-left {
+    padding: 0 4%;
+    width: 40%;
+}
+
+.social-text-right {
+    padding-left: 10%;
+    width: 40%;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    padding: 5% 0;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #212227;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h3, footer p {
+    color: rgb(249, 249, 249);
+    line-height: 1.2;     
+}
+
+footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer p, footer li, footer address, footer a {
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+    line-height: 1.5;
+    list-style: none;
+    text-decoration: none;      
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .fab {
+    padding-right: 2%;
+}
+
+.container-text-left {
+    width: 30%;
+}
+
+.container-text-center {
+    width: 30%;
+}
+
+.container-text-center div {
+    padding-left: 10%;
+}
+
+#follow-me {
+    padding-top: 15%;
+}
+
+.container-text-right {
+    width: 40%;
+}
+
+.container-text-right p {
+    padding-bottom: 4%;
+}
+
+#copyright {
+    padding-top: 3%;
+    text-transform: uppercase;
+}
+
+.sponsor {
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sponsor h3 {
+    width: 90%;
+    padding-bottom: 3%;
+}
+
+.fake-img {
+    border: 2px solid white;
+    background: transparent;
+    width: 20%;
+    padding-top: 10%;
+}
+
+footer button {
+    width: 100%;
+    border: 1px solid;
+    background: #4d4e52;
+    color: rgb(145, 145, 145);
+    text-transform: uppercase;
+    text-align: left;
+    padding: 3% 1%;
+}
+@media only screen and (max-width: 1100px) {
+    p {
+        font-size: 2vh;
+    }
+
+    footer .container {
+        flex-direction: column-reverse;
+    }
+
+    .container-text-left, .container-text-center, .container-text-right {
+        width: 100%;
+    }
+
+    .container-text-center {
+        display: flex;
+        justify-content: space-around;
+        padding: 4% 0;
+    }
+
+    .container-text-center div{
+        padding: inherit;
+    }
+
+    #follow-me {
+        padding: inherit;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .heading h1 {
+        font-size: 4vh;
+        background-size: contain;
+    }
+
+    h3 {
+        font-size: 2vh;
+    }
+
+    .heading p {
+        font-size: 2vh;
+    }
+
+    .ski-man-container {
+        flex-direction: column;
+    }
+
+    .ski-man-img, .ski-man-text-container {
+        width: 100%;
+    }
+
+    .ski-man-text-container {
+        padding: 5% 0;
+    }
+
+    .text-instagram p {
+        font-size: 2vh;
+    }
+
+    .container-play {
+        width: 100%;
+    }
+
+    .social-text-left, .social-text-right {
+        width: 70%;
+    }
+}
+
+
+@media only screen and (max-width: 520px) {
+    .play-text {
+        width: 40%;
+    }
+
+    .container-text-center {
+        flex-direction: column;
+    }
+
+    .social-text-container-left, .social-text-container-right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .social {
+        flex-direction: column;
+    }
+}
