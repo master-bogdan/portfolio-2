@@ -1,2 +1,4 @@
-# Another project 4
+# Portfolio site 2
+Full responsive layout
+HTML5 + CSS3
 
