@@ -1,4 +1,7 @@
-# Portfolio site 2
-### Full responsive layout
-### HTML5 + CSS3
-#### In https://github.com/master-bogdan/portfolio-2/blob/master/amazing.jpg file you can see layout from autor and compare with my work
+# My second training work
+- HTML5
+- CSS3
+
+Here was a task to make "hamburger" menu with css3. Also layout was in PSD format, so i take all pictures and some styles from Photoshop
+
+Link https://master-bogdan.github.io/second-work/
