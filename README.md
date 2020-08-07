@@ -1,4 +1,4 @@
-# My second training work
+# :neckbeard: My second training work
 - HTML5
 - CSS3
 
